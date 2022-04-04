@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto.ttf") format("ttf"), 
+         url("../assets/fonts/Roboto.woff") format("woff"),
+         url("../assets/fonts/Roboto.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("../assets/fonts/Jost-Regular.ttf") format("ttf"),
+         url("../assets/fonts/Jost-Regular.woff") format("woff"),
+         url("../assets/fonts/Jost-Regular.woff2") format("woff2");
+}
