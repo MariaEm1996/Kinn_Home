@@ -274,3 +274,41 @@ a {
     color: #717353;
     line-height: 25px;
 }
+
+.main-four {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 23px;
+    padding-top: 4.14%;
+    padding-bottom: 35.54%;
+    background-image: url("../assets/img/assentials_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 21px solid #FFFFEF;
+    border-right: 15px solid #FFFFEF;
+    border-left: 17px solid #FFFFEF;
+    border-bottom: 11px solid #FFFFEF;
+}
+
+.main-four-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-four-title {
+    font-size: 1.06rem;
+    font-weight: normal;
+    color: #56593D;
+    text-transform: uppercase;
+}
+
+.main-four-text {
+    margin-top: 11px;
+    padding-left: 9.58%;
+    padding-right: 9.58%;
+    font-size: 3.125rem;
+    line-height: 60px;
+    text-align: center;
+    color: #56593D;
+} 
