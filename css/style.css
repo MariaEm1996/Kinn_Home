@@ -226,11 +226,12 @@ a {
 
 .main-three {
     margin-top: 89px;
+    padding-top: 63px;
+    padding-bottom: 81px;
     background-color: #FFFFEF;
 }
 
 .main-three-title {
-    padding-top: 63px;
     font-size: 1.5rem;
     font-weight: normal;
     color: #56593D;
@@ -268,7 +269,6 @@ a {
     display: block;
     width: 100%;
     margin-top: 7px;
-    margin-bottom: 81px;
     text-align: center;
     font-size: 1rem;
     color: #717353;
@@ -314,7 +314,7 @@ a {
 }
 
 .main-five {
-    padding-top: 26px;
+    margin-top: 26px;
 }
 
 .main-five-desing {
@@ -323,18 +323,24 @@ a {
     background-color: #FFFFEF;
 }
 
+.main-five-fig {
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-bottom: 64px;
+}
+
 .main-five-img {
     width: 743px;
     height: 618px;
-    margin-top: 64px;
-    margin-left: 32px;
-    margin-bottom: 64px;
+}
+
+.main-five-content {
+    padding-top: 127px;
 }
 
 .main-five-title {
-    margin-top: 127px;
-    margin-left: 183px;
-    font-size: 29px;
+    text-align: center;
+    font-size: 1.81rem;
     font-weight: normal;
     line-height: 38px;
     color: #56593D;
@@ -348,13 +354,15 @@ a {
     margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
-    color: #717353;
+    background-color: #717353;
 }
 
 .main-five-text {
+    width: 57.73%;
     margin-top: 33px;
-    margin-left: 119px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Jost";
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
 }
