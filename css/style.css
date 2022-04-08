@@ -6,6 +6,11 @@
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
 }
 
 a {
@@ -29,7 +34,9 @@ a {
 .header-content {
     padding-top: 32px;
     padding-left: 4.44%;
+    padding-right: 5%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header::before {
@@ -82,13 +89,12 @@ a {
 
 .logo {
     width: 90px;
-    margin-left: 9.31%;
+    margin-right: 16%;
 }
 
 .bar-nav {
     display: flex;
     flex-direction: row;
-    margin-left: 31.86%;
 }
 
 .bar-nav-item {
@@ -233,7 +239,6 @@ a {
 
 .main-three-title {
     font-size: 1.5rem;
-    font-weight: normal;
     color: #56593D;
     line-height: 32px;
     text-align: center;
@@ -260,7 +265,6 @@ a {
 
 .main-three-link{
     font-size: 1rem;
-    font-weight: normal;
     color: #56593D;
     line-height: 21px;
 }
@@ -298,7 +302,6 @@ a {
 
 .main-four-title {
     font-size: 1.06rem;
-    font-weight: normal;
     color: #56593D;
     text-transform: uppercase;
 }
@@ -341,7 +344,6 @@ a {
 .main-five-title {
     text-align: center;
     font-size: 1.81rem;
-    font-weight: normal;
     line-height: 38px;
     color: #56593D;
 }
@@ -365,4 +367,110 @@ a {
     font-family: "Jost";
     font-size: 1.25rem;
     text-align: center;
+}
+
+.main-five-table {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFEF;
+}
+
+.main-five-fig-two {
+    padding-top: 64px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+}
+
+.main-five-img-two {
+    width: 743px;
+    height: 885px;
+}
+
+.aside {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.aside-one {
+    width: 1328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 63px;
+    background-color: #FFFFEF;
+}
+
+.form-controls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-bottom: 62px;
+}
+
+.aside-one-title {
+    font-size: 1.75rem;
+    line-height: 39px;
+    color: #56593D;
+}
+
+.aside-one-text {
+    margin-top: 16px;
+    font-size: 1.06rem;
+    color: #56593D;
+}
+
+.email-input {
+    width: 339px;
+    background: none;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #56593D;
+}
+
+.email-input:focus-visible {
+    outline: none;
+}
+
+.aside-btn {
+    margin-left: 16px;
+    padding: 0 25px;
+    background-color: #56593D;
+    border: none;
+    color: #FFFFEF;
+    font-size: 0.94rem;
+    line-height: 23px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.aside-two {
+    margin-top: 40px;
+    padding: 64px 24px 64px 32px;
+    background-color: #FFFFEF;
+}
+
+.aside-two-title {
+    text-align: center;
+    font-size: 1.56rem;
+    line-height: 32px;
+    color: #56593D;
+}
+
+.moments {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+}
+
+.moment-card {
+    width: 320px;
+    margin-left: 8px;
+}
+
+.moment-card:first-child {
+    margin-left: 0;
 }
