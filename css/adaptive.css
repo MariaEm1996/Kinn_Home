@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+    .main-three-title {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-two-text {
+        font-size: 1.56rem;
+    }
+    
+    .main-three-link, .main-three-price {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-three-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-three-content {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .main-three-content:first-child {
+        margin-top: 0;
+    }
+
+    .main-three-link, .main-three-price {
+        font-size: 1.5rem;
+    }
+}
