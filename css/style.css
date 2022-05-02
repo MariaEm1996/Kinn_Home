@@ -338,17 +338,18 @@ a {
 }
 
 .main-five-fig {
+    width: 57%;
     padding-top: 64px;
     padding-left: 32px;
     padding-bottom: 64px;
 }
 
 .main-five-img {
-    width: 743px;
-    height: 618px;
+    width: 100%;
 }
 
 .main-five-content {
+    width: 43%;
     padding-top: 127px;
 }
 
@@ -388,14 +389,14 @@ a {
 }
 
 .main-five-fig-two {
+    width: 57%;
     padding-top: 64px;
     padding-right: 32px;
     padding-bottom: 64px;
 }
 
 .main-five-img-two {
-    width: 743px;
-    height: 885px;
+    width: 100%;
 }
 
 .aside {
@@ -405,7 +406,7 @@ a {
 }
 
 .aside-one {
-    width: 1328px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -416,8 +417,10 @@ a {
 }
 
 .form-controls {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 48px;
     margin-bottom: 62px;
 }
@@ -435,7 +438,8 @@ a {
 }
 
 .email-input {
-    width: 339px;
+    max-width: 339px;
+    width: 35.28%;
     background: none;
     font-size: 1rem;
     border: none;
