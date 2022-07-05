@@ -70,6 +70,10 @@
 
 @media (max-width: 767px) {
 
+    html {
+        font-size: 12px;
+    }
+
     .logo {
         width: 35.25%;
     }
@@ -95,6 +99,16 @@
 
     .main-one-title {
         font-size: 2rem;
+        padding-left: 6px;
+    }
+
+    .main-two-link {
+        margin-left: 30px;
+    }
+
+    .main-two-text {
+        font-size: 1.56rem;
+        line-height: 60px;
     }
 
     .main-three-content {
