@@ -1,4 +1,12 @@
 @media (max-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
     .main-three-title {
         font-size: 2rem;
     }
@@ -50,12 +58,43 @@
     .moment-card:nth-child(even) {
         margin-left: 8px;
     }
+
+    .second-column {
+        margin-left: 5.42%;
+    }
+
+    .social {
+        margin-left: 16.12%;
+    }
 }
 
 @media (max-width: 767px) {
+
+    .logo {
+        width: 35.25%;
+    }
+
+    .bar-nav-item {
+        width: 16px;
+        height: 16px;
+    }
+
+    .bar-nav-cart-counter {
+        top: 10px;
+        font-size: 0.75rem;
+    }
+
     .main-three-contents {
         flex-direction: column;
         align-items: center;
+    }
+
+    .main-one-content {
+        margin-right: 0;
+    }
+
+    .main-one-title {
+        font-size: 2rem;
     }
 
     .main-three-content {
@@ -135,5 +174,24 @@
     .moment-card {
         width: 100%;
         margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    } 
+
+    .fist-column {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .second-column {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .social {
+        margin-right: auto;
+        margin-left: auto;
     }
 }

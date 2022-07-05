@@ -47,6 +47,15 @@ a {
     background-color: #FFFFEF;
 }
 
+.burger-menu {
+    background-image: url("../assets/img/burger-menu.svg");
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-size: cover;
+    background-color: initial;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -102,6 +111,7 @@ a {
     display: block;
     width: 32px;
     height: 32px;
+    background-size: cover;
 }
 
 .bar-nav-item:first-child {
@@ -137,6 +147,7 @@ a {
     background: #FFFFEF;
     border-radius: 20px;
     z-index: 1;
+    font-size: 1rem;
 }
 
 .main {
@@ -535,6 +546,7 @@ a {
     letter-spacing: 1.575px;
     text-transform: uppercase;
     list-style-type: none;
+    white-space: nowrap;
 }
 
 .footer-list li:first-child {
@@ -551,11 +563,11 @@ li.footer-list-item-second {
 }
 
 .fist-column {
-    margin-left: 124px;
+    margin-left: 8.71%;
 }
 
 .second-column {
-    margin-left: 248px;
+    margin-left: 17.42%;
 }
 
 .footer-list-item-expand {
@@ -580,7 +592,7 @@ li.footer-list-item-second {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-    margin-left: 372px;
+    margin-left: 23.12%;
 }
 
 .social-vkontakte {
