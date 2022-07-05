@@ -482,12 +482,16 @@ a {
 }
 
 .moment-card {
-    width: 320px;
+    width: calc((100% / 4) - 8px);
     margin-left: 8px;
 }
 
 .moment-card:first-child {
     margin-left: 0;
+}
+
+.moment-card img {
+    width: 100%;
 }
 
 .footer {
