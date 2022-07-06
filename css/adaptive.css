@@ -7,6 +7,58 @@
         margin-right: 0;
     }
 
+    .open-burger-menu {
+        display: block;
+        background-image: url("../assets/img/burger-menu.svg");
+        width: 32px;
+        height: 32px;
+        border: none;
+        background-size: cover;
+        background-color: initial;
+        cursor: pointer;
+    }
+
+    .burger-menu-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-110vh);
+        background-color: #fff;
+        z-index: 1;
+        max-height: 100vh;
+        transition: all 0.5s ease;
+    }
+
+    .burger-menu-content--visible {
+        transform: translateY(0);
+        transition: all 0.5s ease;
+    }
+
+    .burger-menu {
+        list-style-type: none;
+    }
+
+    .burger-menu .menu-item {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .close-burger-menu {
+        background-image: url("../assets/img/cross.svg");
+        background-size: cover;
+        background-color: initial;
+        border: none;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
     .main-three-title {
         font-size: 2rem;
     }

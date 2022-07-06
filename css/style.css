@@ -47,13 +47,12 @@ a {
     background-color: #FFFFEF;
 }
 
-.burger-menu {
-    background-image: url("../assets/img/burger-menu.svg");
-    width: 32px;
-    height: 32px;
-    border: none;
-    background-size: cover;
-    background-color: initial;
+.open-burger-menu {
+    display: none;
+}
+
+.burger-menu-content {
+    display: none;
 }
 
 .menu {
